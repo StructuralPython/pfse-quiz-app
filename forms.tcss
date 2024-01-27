@@ -1,0 +1,32 @@
+$primary: #DD22BB;
+
+Label {
+    margin-top: 2
+}
+
+Header1 {
+    margin: 1;
+    padding: 1;
+    color: $primary;
+}
+
+#name_input {
+    margin: 1;
+    width: 80;
+    color: $primary;
+}
+
+#email_input {
+    margin: 1;
+    width: 80;
+    color: $primary;
+}
+
+#years_experience {
+    margin: 1;
+    width: 30;
+}
+
+#advance {
+    margin: 2;
+}

@@ -1,0 +1,16 @@
+from textual import widgets
+
+class Header1(widgets.Markdown):
+    ...
+
+class Header2(widgets.Markdown):
+    ...
+
+class Header3(widgets.Markdown):
+    ...
+
+class Header4(widgets.Markdown):
+    ...
+
+class Header5(widgets.Markdown):
+    ...
