@@ -142,7 +142,7 @@ TAB_CONTENT = {
                 ("The course was well-structured", 2),
                 ("I could access the course materials in the order that I wanted", 3),
             )
-        )
+        ),
         widgets.RadioSet(
             *(
                 "No",
