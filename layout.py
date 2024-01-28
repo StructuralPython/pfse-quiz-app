@@ -108,14 +108,63 @@ TAB_CONTENT = {
             )
         ),
         widgets.Label(
-            "Which statements reflect your internal monologue while you are working? Select all that apply."
+            "Do you already have some thoughts about what the better way might be?"
+        ),
+        widgets.RadioSet(
+            *(
+                "Yes",
+                "Kind of, but nothing really concrete",
+                "Not yet"
+            )
+        ),
+        widgets.Label(
+            "Is there something holding you back from building the kind engineering workflow you want?"
         ),
         widgets.SelectionList(
             *(
-                ()
+                ("Lack of time", 0),
+                ("Lack of funding", 1),
+                ("Lack of skills", 2),
+                ("Lack of support or help", 3),
+                ("Lack of ideas", 4),
+                ("Lack of community", 5),
             )
         )
     ],
-    "Your Learning Style": [],
+    "Your Learning Style": [
+        widgets.Label(
+            "From courses you have taken in the past, what traits have made courses most enjoyable for you?"
+        ),
+        widgets.SelectionList(
+            *(
+                ("The course material was highly relevant", 0),
+                ("The instructor taught well", 1),
+                ("The course was well-structured", 2),
+                ("I could access the course materials in the order that I wanted", 3),
+            )
+        )
+        widgets.RadioSet(
+            *(
+                "No",
+                "Yes",
+            )
+        ),
+        widgets.Label(
+            "What "
+        ),
+        widgets.Label(
+            "When you take any course, what kind of behaviours reflect how you are as a student?"
+        ),
+        widgets.SelectionList(
+            *(
+                ("I like to work methodically through the course material as it is presented", 0),
+                ("I like to see all material upfront and do that parts that interest me most", 1),
+                ("I like to hear the opinions of others and focus on the parts they recommend", 2),
+                ("I tend to follow the advice of the instructor.", 3),
+                ("I tend to follow my own advice", 4),
+            )
+        ),
+
+    ],
     "Results": []
 }
